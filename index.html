@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunTour</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <a href="index.html"> 
+                    <img src="./images/logo-suntour.svg" alt="logo suntour" width="180" height="44">
+                </a>
+                <p class="header__logo-text">Сеть турагенств «Солнце в кругу»</p>
+            </div>
+            <a href="tel:0441234567" class="header__tel">044 123-45-67</a>
+            <button type="button" class="header__tel-text">обратный звонок</button>
+            <ul>
+                <li class="header__social-network"><a href="https://www.facebook.com/" target="_blank">
+                    <svg width="32" height="32">
+                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+                <li class="header__social-network"><a href="https://plus.google.com/" target="_blank">
+                    <svg width="32" height="32">
+                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-g"></use>
+                    </svg>
+                </a></li>
+                <li class="header__social-network"><a href="https://www.instagram.com/" target="_blank">
+                    <svg width="32" height="32">
+                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <picture class="hero__image">
+                    <source srcset="./images/hero-1080.webp 1x, ./images/hero-1080@2x.webp 2x, ./images/hero-1080@3x.webp 3x" 
+                        media="(min-width: 320px)" 
+                        type="image/webp" />
+
+                    <source srcset="./images/hero-1080.jpg 1x, ./images/hero-1080@2x.jpg 2x, ./images/hero-1080@3x.jpg 3x" 
+                        media="(min-width: 320px)" />
+                    <img src="./images/hero-1080.jpg" alt="Aquamarine hotel" width="1040">
+
+                    <div class="tour">
+                        <p class="tour__descr">Тур в Созополь, Болгария</p>
+                        <p class="tour__text">код тура</p>
+                        <p class="tour__code">3094119</p>
+                    </div>
+                    <div class="vector"></div>
+                </picture>
+                
+                <div class="hotel-widget">
+                    <div class="hotel">
+                        <h2 class="hotel__title">Aquamarine hotel</h2>
+                        <a href=""><span class="hotel__rating"></span></a>
+                        <p class="hotel__price">$256</p>
+                    </div>
+                
+                    <div class="hotel-descr">
+                        <p class="hotel-descr__text">Оценка отеля <a href=""><b>45 отзывов</b></a></p>
+                        <p class="hotel-descr__rating-score">8.4</p>
+                        <table class="table">
+                            <tr>
+                                <td class="table__col table__first-row">номер</td>
+                                <td class="table__col table__first-row">питание</td>
+                                <td class="table__col table__first-row">сервис</td>
+                                <td class="table__col table__first-row">инфраструктура</td>
+                            </tr>
+                            <tr>
+                                <td class="table__col">8.9</td>
+                                <td class="table__col">8.1</td>
+                                <td class="table__col">7.9</td>
+                                <td class="table__col">8.9</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="sundays">
+                        <p class="sundays__320">320</p>
+                        <p class="sundays__text">солнечных дней в году</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="container">
+                
+            </div>
+        </section>
+        <section class="article">
+            <div class="container">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+                
+        </div>
+    </footer>
+</body>
+</html>
