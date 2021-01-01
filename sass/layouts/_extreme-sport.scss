@@ -1,0 +1,56 @@
+.extreme-sport {
+    padding-top: 22px;
+    padding-bottom: 34px;
+}
+
+.extreme-sport ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extreme-sport {
+    &__item-title {
+        margin-top: 24px;
+        font-family: Trebuchet MS;
+        font-size: 35px;
+        line-height: 41px;
+        color: #000000;
+    }
+
+    &__item-text {
+        margin-top: 11px;
+        margin-bottom: 0px;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    &__item-price {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Trebuchet MS;
+        font-size: 35px;
+        line-height: 41px;
+        text-align: right;
+        color: #000000;
+
+        &--old {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Trebuchet MS;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: right;
+            color: #777777;
+            text-decoration: line-through;
+	        text-decoration-color: red;
+        }
+    }
+}
+
+.item-widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
