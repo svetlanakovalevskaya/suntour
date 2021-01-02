@@ -115,7 +115,7 @@ h3 {
 }
 
 .header__logo-text {
-  display: flex;
+  display: none;
   align-items: flex-end;
   width: 149px;
   height: 48px;
@@ -126,6 +126,12 @@ h3 {
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 1080px) {
+  .header__logo-text {
+    display: flex;
+  }
 }
 
 .header__tel {
