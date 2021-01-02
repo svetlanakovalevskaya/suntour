@@ -52,3 +52,24 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS'), url("../fonts/TrebuchetMS/trebuc.woff") format('woff');
+}
+    
+@font-face {
+    font-family: 'Trebuchet MS Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS Italic'), url("../fonts/Trebuchet/Trebuchet-MS-Italic.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Trebuchet MS Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS Bold'), url("../fonts/Trebuchet/Trebuchet-MS-Bold.woff") format('woff');
+}

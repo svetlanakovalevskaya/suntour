@@ -17,21 +17,21 @@
                 <p class="header__logo-text">Сеть турагенств «Солнце в кругу»</p>
             </div>
             <a href="tel:0441234567" class="header__tel">044 123-45-67</a>
-            <button type="button" class="header__tel-text">обратный звонок</button>
+            <button type="button" class="header__tel-text" data-modal-open>обратный звонок</button>
             <ul>
                 <li class="header__social-network"><a href="https://www.facebook.com/" target="_blank">
                     <svg width="32" height="32">
-                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-facebook"></use>
+                        <use class="header__soc-icon" href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                 </a></li>
                 <li class="header__social-network"><a href="https://plus.google.com/" target="_blank">
                     <svg width="32" height="32">
-                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-g"></use>
+                        <use class="header__soc-icon" href="./images/symbol-defs.svg#icon-g"></use>
                     </svg>
                 </a></li>
                 <li class="header__social-network"><a href="https://www.instagram.com/" target="_blank">
                     <svg width="32" height="32">
-                        <use class="header__facebook-icon" href="./images/symbol-defs.svg#icon-instagram"></use>
+                        <use class="header__soc-icon" href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                 </a></li>
             </ul>
@@ -59,26 +59,26 @@
                 
                 <div class="hotel-widget">
                     <div class="hotel">
-                        <h2 class="hotel__title">Aquamarine hotel</h2>
-                        <a href=""><span class="hotel__rating"></span></a>
+                        <a href=""><h2 class="hotel__title">Aquamarine hotel</h2></a>
+                        <a class="hotel__rating" href=""></a>
                         <p class="hotel__price">$256</p>
                     </div>
                 
                     <div class="hotel-descr">
                         <p class="hotel-descr__text">Оценка отеля <a href=""><b>45 отзывов</b></a></p>
                         <p class="hotel-descr__rating-score">8.4</p>
-                        <table class="table">
+                        <table class="hotel-table">
                             <tr>
-                                <td class="table__col table__first-row">номер</td>
-                                <td class="table__col table__first-row">питание</td>
-                                <td class="table__col table__first-row">сервис</td>
-                                <td class="table__col table__first-row">инфраструктура</td>
+                                <td class="hotel-table__col hotel-table__first-row">номер</td>
+                                <td class="hotel-table__col hotel-table__first-row">питание</td>
+                                <td class="hotel-table__col hotel-table__first-row">сервис</td>
+                                <td class="hotel-table__col hotel-table__first-row">инфраструктура</td>
                             </tr>
                             <tr>
-                                <td class="table__col">8.9</td>
-                                <td class="table__col">8.1</td>
-                                <td class="table__col">7.9</td>
-                                <td class="table__col">8.9</td>
+                                <td class="hotel-table__col">8.9</td>
+                                <td class="hotel-table__col">8.1</td>
+                                <td class="hotel-table__col">7.9</td>
+                                <td class="hotel-table__col">8.9</td>
                             </tr>
                         </table>
                     </div>
@@ -137,14 +137,114 @@
         </section>
         <section class="article">
             <div class="container">
+                <h1 class="article__title-h1">36,6 градусов по цельсию и познава-тельная физика</h1>
+
+                <div class="article__widget">
+                    <p class="article__p"><b>Никто не задумывался почему температура человеческого тела 36,6 С? Почему не иная? Почему не равна дневной температуре окружающего пространства к примеру? Но почему так произошло? Первая причина лежит от нас на временной оси в прошлом на расстоянии в несколько миллиардов лет. Именно тогда появилась жизнь.</b></p>
+                    <p class="article__p">Грубо говоря первичные репликаторы огородились защитной оболочкой от остальной части океана — создав клетки. Клетки это замкнутые водные резервуары, в которых вся жизнедеятельность проходит в водной среде. И все сухопутные организмы концептуально это машины выживания репликаторов, мобильная (в случае с животными), благоприятная водная среда для репродукции, окруженная защитной оболочкой от внешнего мира.</p>
                 
+                    <h2 class="article__title-h2">Ищем ответ</h2>
+                    <p class="article__p">Что интересно, все теплокровные функционируют в пределах той же области температур что и человек. Например температура у лошадей 37,5-38,5; у коров 37,5-39,5; кур 40,5-42,5; свиней 39,0-40,0; кошек 38,0-39,5; обезьян 38,1; голубей 41,0-44,0. Ответ лежит в области нет, не биологии. А в области физики воды. Дело в том, что теплоемкость воды нелинейно зависит от температуры. Теплоемкость это количество энергии, которое необходимо потратить для того что бы нагреть 1 кг вещества на 1 градус. При увеличении температуры она как бы пикирует как штурмовик, и возносится ввысь после прохождения нижней точки в 36,8 градусов Цельсия. В организме человека вода составляет около 65-70%, её теплоемкость огромна.</p>
+                    <p class="article__p article__quote">Дело в том, что теплоемкость воды нелинейно зависит от температуры. Теплоемкость это количество энергии, которое необходимо потратить для того что бы нагреть 1 кг вещества на 1 градус. При увеличении температуры она как бы пикирует как штурмовик, и возносится ввысь после прохождения нижней точки в 36,8 градусов Цельсия. В организме человека вода составляет около 65-70%, её теплоемкость огромна.</p>
+                    <p class="article__p">90% энергии получаемой с пищей, теплокровные потому тратят только лишь на поддержание постоянной температуры внутренней среды. На нагревание воды. Потому эта ямка, минимум, в котором нужно было тратить минимальное количество энергии на поддержание своего состояния, как аттрактор, стягивал на себя на протяжении эволюции все «модели» теплокровных. Фенотипы, с рабочей температурой иных диапазонов были слишком «прожорливыми» и отсеивались отбором.</p>
+                
+                    <div class="statistics">
+                        <p class="statistics__071">0,71</p>
+                        <p class="statistics__whr">WHR здорового человека </p>
+                        <p class="statistics__text">Один из весьма надежных показателей здоровья, фертильности, как раз «waistto hip ratio».</p>
+                    </div>
+                </div>
+
+                <h3 class="article__title-h3">Хлорофилл и красота</h3>
+                <p class="article__p">Могло случится так что небо было бы ядовито-желтое а не голубое. Трава так же красная. Нравился бы нам такой пейзаж? Почему красный, ярко-желтый, создают чувство неспокойствия и не подходят для идилических райских картин ландшафтов как голубой и зеленый? Дело не в них а в нас. Мы продукт эволюции, продукт среды в которой мы развивались. Что и было показано на примере температуры тела.</p>
+                <p class="article__p">Начну с далека, так уж нужно, ничего не поделаешь… Зеленым цветом на картинке окрашена трава, трава это растение. Первыми вышли задолго до животных на сушу растения. Они сформировали то первичное окружение для живых организмов, создали им условия существования на суше. Стали источником пищи и крова, ведь животные гетеротрофы. Растения же в основном автотрофы. Так вышло что у растений при участии хлорофилла осуществляется процесс фотосинтеза. А по совместительству он так же зелёный пигмент, обусловливающий окраску хлоропластов растений в зелёный цвет.</p>
+                <p class="article__p">Так же интересна физическая причина наших понятий красоты.</p>
+                <table class="table">
+                    <thead class="table__head">
+                        <tr class="table__row">
+                            <th class="table__col1"></th>
+                            <th class="table__column">Хлорофилл a</th>
+                            <th class="table__column">Хлорофилл b</th>
+                            <th class="table__column">Хлорофилл c1</th>
+                            <th class="table__column">Хлорофилл c2</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__col1">Формула</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__col1">C2 группа</td>
+                            <td class="table__column">-C<sub>55</sub></td>
+                            <td class="table__column">-C<sub>55</sub></td>
+                            <td class="table__column">-C<sub>55</sub></td>
+                            <td class="table__column">-C<sub>55</sub></td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__col1">C3 группа</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                            <td class="table__column">C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="article__p article__p--margin-5">Как найти эти консервативные признаки? Наиболее часто рассматривают 5 источников информации о них:</p>
+                <ul class="article__p article__p--margin-0">
+                    <li class="article__ul">эмбриологические исследования;</li>
+                    <li class="article__ul">тератологические данные;</li>
+                    <li class="article__ul">сравнительно-морфологические данные;</li>
+                    <li class="article__ul">анализ врожденных поведенческих программ (этологические данные);</li>
+                    <li class="article__ul">изучение взаимосвязи с другими видами.</li>
+                </ul>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
-                
+            <div class="footer__container">
+                <p class="footer__text">2019 Тестовое задание на вакансию верстальщика в компанию <a class="footer__link" href="">Aweb</a></p>
+                <ul>
+                    <li class="header__social-network"><a href="https://www.facebook.com/" target="_blank">
+                        <svg width="32" height="32">
+                            <use class="footer__soc-icon" href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a></li>
+                    <li class="header__social-network"><a href="https://plus.google.com/" target="_blank">
+                        <svg width="32" height="32">
+                            <use class="footer__soc-icon" href="./images/symbol-defs.svg#icon-g"></use>
+                        </svg>
+                    </a></li>
+                    <li class="header__social-network"><a href="https://www.instagram.com/" target="_blank">
+                        <svg width="32" height="32">
+                            <use class="footer__soc-icon" href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a></li>
+                </ul>
+            </div>
+           
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal__close-button" data-modal-close>
+            <svg class="modal__close-icon">
+                <use href="./images/symbol-defs.svg#icon-close-x"></use>
+            </svg>
+            </button>
+
+            <form class="contact-form" action="" method="get">
+                <p class="contact-form__title">Оставьте свои данные, мы вам перезвоним</p>
+                <button class="contact-form__button" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>

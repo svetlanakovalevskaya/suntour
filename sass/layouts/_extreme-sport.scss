@@ -1,20 +1,23 @@
-.extreme-sport {
-    padding-top: 22px;
-    padding-bottom: 34px;
-}
-
 .extreme-sport ul {
     display: flex;
     justify-content: space-between;
 }
 
 .extreme-sport {
+    padding-top: 22px;
+    padding-bottom: 34px;
+
     &__item-title {
         margin-top: 24px;
-        font-family: Trebuchet MS;
+        font-family: Trebuchet MS, sans-serif;
         font-size: 35px;
         line-height: 41px;
         color: #000000;
+
+        &:hover,
+        &:focus {
+            color: #CB0000;
+        }
     }
 
     &__item-text {
@@ -29,16 +32,17 @@
     &__item-price {
         margin-top: 0px;
         margin-bottom: 0px;
-        font-family: Trebuchet MS;
+        font-family: Trebuchet MS, sans-serif;
         font-size: 35px;
         line-height: 41px;
+        font-weight: bold;
         text-align: right;
         color: #000000;
 
         &--old {
             margin-top: 0px;
             margin-bottom: 0px;
-            font-family: Trebuchet MS;
+            font-family: Trebuchet MS, sans-serif;
             font-size: 20px;
             line-height: 23px;
             text-align: right;

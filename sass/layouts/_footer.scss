@@ -1,0 +1,31 @@
+.footer {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-top: 1px solid #777777;
+    }
+
+    &__text {
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    &__link {
+        color: #00BFF3;
+        border-bottom: 1px dotted;
+    }
+    
+    &__soc-icon {
+        width: 32px;
+        height: 32px;
+        fill: #00BFF3;
+    }
+}
+
+.footer ul {
+    display: flex;
+}
