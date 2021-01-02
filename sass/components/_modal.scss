@@ -4,7 +4,7 @@
     left: 50%;
     max-width: 450px;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     transform: translate(-50%, -50%) scale(1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -32,15 +32,6 @@
     border-radius: 25px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-    &:hover .modal__close-icon,
-    &:focus .modal__close-icon {
-        fill: $accentElementColor;
-    }
-  
-    &:focus {
-        border-color: $secondaryColor;
-    }
 }
   
 .modal__close-icon {
@@ -50,4 +41,5 @@
     transform: translate(-50%, -50%);
     width: 11px;
     height: 11px;
+    fill: #ffffff;
 }

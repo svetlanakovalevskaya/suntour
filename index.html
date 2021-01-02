@@ -240,6 +240,20 @@
 
             <form class="contact-form" action="" method="get">
                 <p class="contact-form__title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="input__title" for="name">Имя</label>
+                <div class="contact-input">
+                  <input class="contact-input__field" type="text" name="name" id="name" />
+                  <svg class="contact-input__icon">
+                    <use href="./images/symbol-defs.svg#icon-person"></use>
+                  </svg>
+                </div>
+                <label class="input__title" for="tel">Телефон</label>
+                <div class="contact-input">
+                  <input class="contact-input__field" type="tel" name="tel" id="tel" />
+                  <svg class="contact-input__icon">
+                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                </div>
                 <button class="contact-form__button" type="submit">Отправить</button>
             </form>
         </div>
